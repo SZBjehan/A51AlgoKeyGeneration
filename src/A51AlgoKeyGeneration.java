@@ -4,13 +4,17 @@ import java.util.Scanner;
 public class A51AlgoKeyGeneration {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        int X[] = {1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1};
-        int Y[] = {1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1};
-        int Z[] = {1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0};
+        int[] X;
+        X = new int[]{1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1};
+        int[] Y;
+        Y = new int[]{1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1};
+        int[] Z;
+        Z = new int[]{1,1,1,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0};
 
         int key = sc.nextInt();
         int keyCount = 0;
-        int k[] = new int[key];
+        int[] k;
+        k = new int[key];
         for (; keyCount < key ; keyCount++) {
 
             System.out.println(" ");

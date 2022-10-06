@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d229022-a544-4d58-aefa-083c14a0033c" name="Changes" comment="algo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/A51AlgoKeyGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A51AlgoKeyGeneration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665059208721</updated>
-      <workItem from="1665059210751" duration="3707000" />
+      <workItem from="1665059210751" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="algo">
       <created>1665062672781</created>
@@ -52,7 +53,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665062672781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="algo">
+      <created>1665062939617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665062939617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="algo">
+      <created>1665062968453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665062968453</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
