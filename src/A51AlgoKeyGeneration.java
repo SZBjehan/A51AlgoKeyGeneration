@@ -13,16 +13,16 @@ public class A51AlgoKeyGeneration {
         int k[] = new int[key];
         for (; keyCount < key ; keyCount++) {
 
-            System.out.println("");
-            System.out.println("");
+            System.out.println(" ");
+            System.out.println(" ");
 
             System.out.println("Finding Key :");
-            System.out.println("");
+            System.out.println(" ");
 
             System.out.println("Part 1");
 
             System.out.println("major =  X[8] XOR Y[10] XOR Z[10] ");
-            //        X[8]^Y[10]^Z[10]
+
             int mCount = 0;
             if (X[8] == 0) {
                 mCount++;
@@ -39,8 +39,8 @@ public class A51AlgoKeyGeneration {
             } else major = 1;
 
             System.out.println("major = " + major);
-            System.out.println("");
-            System.out.println("");
+            System.out.println(" ");
+            System.out.println(" ");
             System.out.println("Part 2");
             if (X[8] == major) {
                 int t = X[13] ^ X[16] ^ X[17] ^ X[18];
@@ -50,7 +50,7 @@ public class A51AlgoKeyGeneration {
                         //Shift element of array by one
                         X[j] = X[j - 1];
                     }
-                    //Last element of array will be added to the start of array.
+                    //start of array.
                     X[0] = t;
                 }
                 System.out.println("X = " + Arrays.toString(X));
@@ -65,7 +65,7 @@ public class A51AlgoKeyGeneration {
                         //Shift element of array by one
                         Y[j] = Y[j - 1];
                     }
-                    //Last element of array will be added to the start of array.
+                    //start of array.
                     Y[0] = t;
                 }
                 System.out.println("Y = " + Arrays.toString(Y));
@@ -81,7 +81,7 @@ public class A51AlgoKeyGeneration {
                         //Shift element of array by one
                         Z[j] = Z[j - 1];
                     }
-                    //Last element of array will be added to the start of array.
+                    //start of array.
                     Z[0] = t;
                 }
                 System.out.println("Z = " + Arrays.toString(Z));
@@ -89,16 +89,15 @@ public class A51AlgoKeyGeneration {
             } else {
                 System.out.println("Z = " + Arrays.toString(Z));
             }
-
-            System.out.println("");
-            System.out.println("");
+            System.out.println(" ");
+            System.out.println(" ");
             System.out.println("Part 3");
             System.out.println("Last 3 digits of X, Y, Z is " + X[18] + Y[21] + Z[22]);
             k[keyCount] = X[18] ^ Y[21] ^ Z[22];
             System.out.println("X[18] XOR Y[21] XOR Z[22] = " + k[keyCount]);
         }
-        System.out.println("");
-        System.out.println("");
+        System.out.println(" ");
+        System.out.println(" ");
 
         System.out.println("Therefore, next " + key + " keystream bits are " + Arrays.toString(k));
 
